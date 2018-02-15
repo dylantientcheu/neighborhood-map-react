@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import MapContainer from './Components/GmapComponent/MapContainer'
+import React, { Component } from "react";
+import "./App.css";
+import MapContainer from "./Components/GmapComponent/MapContainer";
 
 class App extends Component {
   render() {
@@ -10,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Neighborhood Map Project</h1>
         </header>
-        <MapContainer></MapContainer>
+        <MapContainer />
       </div>
     );
   }
