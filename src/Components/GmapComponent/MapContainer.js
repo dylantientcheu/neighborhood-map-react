@@ -1,5 +1,5 @@
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
-import React, { Component } from "react";
+import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
+import React, { Component } from 'react';
 
 export class MapContainer extends Component {
   constructor(props) {
@@ -7,18 +7,18 @@ export class MapContainer extends Component {
     this.state = {
       showingInfoWindow: false,
       activeMarker: {},
-      selectedPlace: {}
+      selectedPlace: {},
     };
     // binding this to event-handler functions
     this.onMarkerClick = this.onMarkerClick.bind(this);
     this.onMapClicked = this.onMapClicked.bind(this);
   }
+
   onMarkerClick(props, marker, e) {
-    console.log("clicked");
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
-      showingInfoWindow: true
+      showingInfoWindow: true,
     });
   }
 
@@ -26,7 +26,7 @@ export class MapContainer extends Component {
     if (this.state.showingInfoWindow) {
       this.setState({
         showingInfoWindow: false,
-        activeMarker: null
+        activeMarker: null,
       });
     }
   }
@@ -39,7 +39,7 @@ export class MapContainer extends Component {
         zoom={15}
         initialCenter={{
           lat: 3.885441,
-          lng: 11.514515
+          lng: 11.514515,
         }}
         onClick={this.onMapClicked}
       >
@@ -50,7 +50,7 @@ export class MapContainer extends Component {
           position={{ lat: 3.885441, lng: 11.51451 }}
           icon={
             {
-              /*url: "../../assets/marker.png",
+              /* url: "../../assets/marker.png",
                 anchor: new google.maps.Point(32,32),
                 scaledSize: new google.maps.Size(64,64) */
             }
@@ -78,10 +78,10 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCD7Cv9p0lYKiJ0pSxKPmxPU2G_zS-FX2Y"
+  apiKey: 'AIzaSyCD7Cv9p0lYKiJ0pSxKPmxPU2G_zS-FX2Y',
 })(MapContainer);
 
 const style = {
-  width: "100%",
-  height: "92%"
+  width: '100%',
+  height: '92%',
 };

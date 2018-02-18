@@ -21,6 +21,15 @@
   font-size: large;
 }
 
+.searchbar {
+  margin: 15px 0 5px;
+  height: 50px;
+}
+
+.places {
+  text-decoration: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

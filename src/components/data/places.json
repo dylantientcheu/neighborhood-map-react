@@ -1,31 +1,31 @@
 [
   {
-    "place": "Pharmacie Bastos",
+    "name": "Pharmacie Bastos",
     "lats": 3.892178,
     "longs": 11.512062
   },
   {
-    "place": "Tchop et Yamo",
+    "name": "Tchop et Yamo",
     "lats": 3.887423,
     "longs": 11.502639
   },
   {
-    "place": "Alfresco Pizza",
+    "name": "Alfresco Pizza",
     "lats": 3.892596,
     "longs": 11.518395
   },
   {
-    "place": "JC Bar",
+    "name": "JC Bar",
     "lats": 3.892883,
     "longs": 11.510174
   },
   {
-    "place": "Platinium Cafe",
+    "name": "Platinium Cafe",
     "lats": 3.893226,
     "longs": 11.509138
   },
   {
-    "place": "Afriland Firstbank",
+    "name": "Afriland Firstbank",
     "lats": 3.87505,
     "longs": 11.516231
   }
