@@ -14,6 +14,8 @@ This application follow this [Udacity Project Rubric](https://review.udacity.com
 
 ## Run Online Project
 
+You can get the hosted project here -> https://blurdylan.github.io/neighborhood-map-react
+
 ## Features
 
 1. Click on any marker to see the location details fetched from the [FourSquare APIs](https://developer.foursquare.com/).
@@ -36,3 +38,10 @@ The app will launch in your browser at the address[http://localhost:3000/](http:
 ### Constraints
 
 > It is important to note that, the assets will only be cached when we are on production mode.
+
+## Build
+
+You can run the build for testing the service worker or any other reason following these steps
+
+1 First `npm run build` to create an optimized version of the project
+2 Then `npm run deploy` to deploy to the specified address

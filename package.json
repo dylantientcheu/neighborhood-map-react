@@ -17,5 +17,5 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build"
   },
-  "homepage": "https://manishbisht.github.io/Neighborhood-Map-React"
+  "homepage": "https://blurdylan.github.io/neighborhood-map-react"
 }
