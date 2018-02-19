@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Pharmacie Bastos",
+    "type": "Pharmacy",
+    "latitude": 3.892178,
+    "longitude": 11.512062
+  },
+  {
+    "name": "Nouvelle Route Bastos",
+    "type": "Road",
+    "latitude": 3.8876722,
+    "longitude": 11.5026364
+  },
+  {
+    "name": "Palmariva",
+    "type": "Place",
+    "latitude": 3.8934813,
+    "longitude": 11.5075709
+  },
+  {
+    "name": "Dovv Supermarket",
+    "type": "Supermarket",
+    "latitude": 3.8920529,
+    "longitude": 11.5102128
+  },
+  {
+    "name": "Platinium Cafe",
+    "type": "bar",
+    "latitude": 3.893226,
+    "longitude": 11.509138
+  },
+  {
+    "name": "Alfresco",
+    "type": "Pizza hut",
+    "latitude": 3.8923292,
+    "longitude": 11.5108073
+  }
+]
